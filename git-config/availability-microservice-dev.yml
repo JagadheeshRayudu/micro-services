@@ -1,0 +1,11 @@
+name: Jagadheesh from Availability-Microservice Cloud
+spring:
+  datasource:
+    url: jdbc:h2:mem:order_details_db
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console.enabled: true

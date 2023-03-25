@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:\Users\DELL\IdeaProjects\micro-services\git-config
+        default-label: main
